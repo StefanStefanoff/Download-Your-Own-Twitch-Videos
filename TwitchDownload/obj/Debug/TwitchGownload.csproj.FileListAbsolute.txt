@@ -1,0 +1,14 @@
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\obj\Debug\TwitchGownload.csprojAssemblyReference.cache
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\obj\Debug\TwitchGownload.Form1.resources
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\obj\Debug\TwitchGownload.csproj.GenerateResource.cache
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\obj\Debug\TwitchGownload.csproj.CoreCompileInputs.cache
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\obj\Debug\TwitchGownload.download.resources
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\obj\Debug\TwitchDownload.Properties.Resources.resources
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\bin\Debug\TwitchDownload.exe.config
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\bin\Debug\TwitchDownload.exe
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\bin\Debug\TwitchDownload.pdb
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\obj\Debug\TwitchGownload.csproj.CopyComplete
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\obj\Debug\TwitchDownload.exe
+C:\Users\lorda\source\repos\TwitchGownload\TwitchGownload\obj\Debug\TwitchDownload.pdb
