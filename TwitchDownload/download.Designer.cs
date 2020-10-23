@@ -35,6 +35,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.backButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -48,7 +49,7 @@
             // 
             // dlFinishButton
             // 
-            this.dlFinishButton.Location = new System.Drawing.Point(392, 269);
+            this.dlFinishButton.Location = new System.Drawing.Point(392, 266);
             this.dlFinishButton.Name = "dlFinishButton";
             this.dlFinishButton.Size = new System.Drawing.Size(75, 23);
             this.dlFinishButton.TabIndex = 2;
@@ -58,7 +59,7 @@
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(285, 269);
+            this.startButton.Location = new System.Drawing.Point(204, 267);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(75, 23);
             this.startButton.TabIndex = 4;
@@ -90,11 +91,22 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "Time:";
             // 
+            // backButton
+            // 
+            this.backButton.Location = new System.Drawing.Point(296, 267);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(75, 23);
+            this.backButton.TabIndex = 8;
+            this.backButton.Text = "Back";
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
             // download
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(479, 311);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.startButton);
@@ -117,5 +129,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button backButton;
     }
 }

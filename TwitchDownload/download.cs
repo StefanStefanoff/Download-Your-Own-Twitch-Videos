@@ -80,7 +80,12 @@ namespace TwitchDownload
                     var response = client.SendAsync(request);
                     var responseObject = JObject.Parse(response.Result.Content.ReadAsStringAsync().Result);
                     var videos = responseObject["videos"];
-                    
+
+                    if (videos == null) {
+                        _worker.ReportProgress(0, "Failed to get videos list. Please check credentials");
+                        return;
+                    }
+
                     if (videos.Count() == 0) {
                         break;
                     }
@@ -205,6 +210,14 @@ namespace TwitchDownload
         private void timer1_Tick(object sender, EventArgs e)
         {
             textBox1.Text = (Int32.Parse(textBox1.Text) + 1) + "";
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.ShowDialog();
+            this.Close();
         }
     }
 }

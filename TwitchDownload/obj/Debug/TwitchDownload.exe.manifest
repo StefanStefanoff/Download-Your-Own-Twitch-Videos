@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TwitchDownload.exe" size="22496">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TwitchDownload.exe" size="23008">
       <assemblyIdentity name="TwitchDownload" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8eW6RwHK8SZ3kVsUWnRypvRYk/rWw6JtV1RqTAa2Oyo=</dsig:DigestValue>
+        <dsig:DigestValue>gSDmrk3q6fFiOCwj2rMsNsieDY4uAivxhEMbqeEuLMg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
